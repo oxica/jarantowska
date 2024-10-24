@@ -224,7 +224,7 @@ img {
 
 .home{
   position: relative;
-  height: 48vw;
+  /* height: 48vw; */
   padding-top: 6.5rem;
 }
 
@@ -241,6 +241,8 @@ img {
   height: 100%;
   z-index: -1;
 }
+
+
 
 /* .home__bg{
   object-fit: cover;
@@ -269,19 +271,21 @@ img {
   margin-bottom: 12rem;
 }
 
-/* .home__bread{
+/* .home__laptop{
   width: 50px;
   position: absolute;
   top: 15rem;
   left: 4rem;
-}
+} */
 
-.home__image{
+
+/* .home__image{
   max-width: 400px;
   justify-self: center;
-}
+} */
 
-.home__img{
+
+/* .home__img{
   rotate: 15deg;
 } */
 
@@ -433,7 +437,7 @@ canvas {
   padding: 6.5rem 1rem 1.25rem;
   border: 2px solid transparent;
   transition: border-color, box-shadow .4s;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
   border-radius: 12px;
 }
 
