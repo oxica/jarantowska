@@ -181,7 +181,7 @@
     border-color: var(--first-color);
   }
   
-  .comment::placeholder {
+  .text::placeholder {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
