@@ -80,13 +80,21 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(250, 247, 247);
   
     cursor: pointer;
+  }
+
+  .close-btn .modal-icon {
+    fill: #fff;
   }
   
   .close-btn:hover .modal-icon {
     fill: var(--first-color);
+  }
+
+  .close-btn:hover{
+    border: 2px solid var(--first-color);
   }
   
   .form {
@@ -268,4 +276,5 @@
   .form-btn:hover,
   .form-btn:focus {
     background-color: var(--first-color-alt);
+    color: black;
   }

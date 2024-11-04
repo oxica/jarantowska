@@ -227,6 +227,8 @@ img {
 .home{
   position: relative;
   padding-top: 6.5rem;
+  height: 100vh;
+
 }
 
 .home__container{
