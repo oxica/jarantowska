@@ -486,6 +486,7 @@ canvas {
   }
 
   .home__title{
+    margin-top: 6rem;
     margin-bottom: 6rem;
     font-size: var(--biggest-font-size);
   }
