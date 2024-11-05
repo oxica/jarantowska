@@ -691,7 +691,7 @@ canvas {
 
   .oferta__container{
     grid-template-columns: repeat(2, 335px);
-    align-items: center;
+    align-items:start;
   }
 
   .footer__container{
@@ -773,6 +773,11 @@ canvas {
 
   .home__social{
     column-gap: 1.5rem;
+  }
+
+  .oferta__container{
+    grid-template-columns: repeat(3, 335px);
+    align-items:start;
   }
 
   .portfolio__container{
