@@ -572,7 +572,7 @@ canvas {
 }
 
 
-@media screen and (max-width:340px){
+@media screen and (max-width:479px){
   .container{
     margin-inline: 1rem;
   }
