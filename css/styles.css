@@ -443,6 +443,7 @@ canvas {
 
 .portfolio__container{
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   row-gap: 3.5rem;
 }
 
@@ -491,6 +492,7 @@ canvas {
 .footer__container{
   position: relative;
   row-gap: 4rem;
+  padding-top: 1rem;
 }
 
 .footer__logo{
@@ -578,7 +580,7 @@ canvas {
   }
 
   .section {
-    padding-block: 3.5rem 1rem;
+    padding-block: 4rem 1rem;
   }
 
   .section__title{
