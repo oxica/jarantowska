@@ -577,9 +577,9 @@ canvas {
     margin-inline: 1rem;
   }
 
-  /* .section {
-    padding-block: 2.5rem 1rem;
-  } */
+  .section {
+    padding-block: 3.5rem 1rem;
+  }
 
   .section__title{
     margin-bottom: 1rem;
