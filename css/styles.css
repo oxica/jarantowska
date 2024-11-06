@@ -105,7 +105,22 @@ img {
   overflow: hidden; /* For animation ScrollReveal */
 }
 
+.button{
+  display: inline-flex;
+  background-color: var(--first-color);
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  padding: 1.125rem 2rem;
+  border-radius: 6px;
+  transition: color, background-color .4s;
+  box-shadow: 8px 6px 20px hsla(0, 0%, 100%, 0.3);
 
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+  color: var(--first-color);
+}
 
 /*   HEADER   */
 .header{
@@ -225,6 +240,21 @@ img {
 
 
 
+.lang-btn{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-regular);
+  padding: .5rem 1rem;
+  border-radius: 6px; 
+}
+.lang-btn:nth-child(2){
+  margin-left: 8px;
+}
+
+.lang-btn.active{
+  color: var(--body-color);
+  background: #fff;
+}
+
 /*   HOME   */
 
 .home{
@@ -312,22 +342,7 @@ img {
   color: var(--first-color);
 }
 
-.button{
-  display: inline-flex;
-  background-color: var(--first-color);
-  color: var(--title-color);
-  font-weight: var(--font-bold);
-  padding: 1.125rem 2rem;
-  border-radius: 6px;
-  transition: color, background-color .4s;
-  box-shadow: 8px 6px 20px hsla(0, 0%, 100%, 0.3);
 
-}
-
-.button:hover{
-  background-color: var(--first-color-alt);
-  color: var(--first-color);
-}
 
 canvas {
   display: block;
