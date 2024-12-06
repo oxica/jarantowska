@@ -1,8 +1,8 @@
-:root {
-    --header-height: 3.5rem;
+/* :root {
+    --header-height: 3.5rem; */
   
     /*========== Colors ==========*/
-    --first-color: hsl(230, 100%, 60%);
+    /* --first-color: hsl(230, 100%, 60%);
     --first-color-alt: hsl(240, 100%, 100%);
     --color-particles: hsl(230, 100%, 52%);
     --title-color: hsl(0, 0%, 95%);
@@ -10,11 +10,11 @@
     --text-color-light: hsl(0, 0%, 65%);
     --black-color: hsl(0, 0%, 6%);
     --body-color: hsl(225, 46%, 31%);
-    --container-color: hsl(0, 0%, 10%);
+    --container-color: hsl(0, 0%, 10%); */
   
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
-    --body-font: "Poppins", sans-serif;
+    /* --body-font: "Poppins", sans-serif;
     --second-font: "Arima", cursive;
     --biggest-font-size: 3rem;
     --bigger-font-size: 2.5rem;
@@ -23,7 +23,8 @@
     --h3-font-size: 1rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
-}
+} */
+
 
 .backdrop {
     position: fixed;
